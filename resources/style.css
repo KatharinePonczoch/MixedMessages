@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(184, 151, 151);
+  background-color: rgb(172, 159, 159);
   box-sizing: border-box;
 }
 
 button {
   /*font-family: ; */
   font-size: 30px;
-  color: #61bff9;
+  color: #557c95;
   border: 1px solid #466995;
   border-radius: 10px;
   box-shadow: 2px 6px;
@@ -23,13 +23,14 @@ button:active {
   color: #dbe9ee;
   box-shadow: 1px 1px;
   background-color: #c0d6df;
-  color: #ffffff;
+  color: #908e8e;
 }
 #container {
   width: 500px;
-  height: 300px;
+  height: 400px;
   /* background-color: palegreen; */
   margin: auto;
+  margin-top: 3%;
 }
 
 section {
@@ -37,10 +38,11 @@ section {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   width: 400px;
   height: 200px;
-  background-color: beige;
+  background-color: rgb(241, 241, 238);
   text-align: center;
   padding: 10px;
   margin: auto;
+  border-radius: 8px;
   /* display: none; */
   visibility: hidden;
   /* visibility: inherit; */
