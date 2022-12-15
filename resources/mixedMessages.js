@@ -1,8 +1,12 @@
-const alphaArray = [[a1], [a2], [a3], [a4]];
-const betaArray = [[b1], [b2], [b3]];
-const carrotArray = [[c1], [c2], [c3], [c4], [c5], [c6]];
+const alphaArray = [["a1"], ["a2"], ["a3"], ["a4"]];
+const betaArray = [["b1"], ["b2"], ["b3"]];
+const carrotArray = [["c1"], ["c2"], ["c3"], ["c4"], ["c5"], ["c6"]];
 
 function getRandomMessage() {
+  function makeVisible() {
+    document.getElementById("hidden").style.visibility = "inherit";
+  }
+  makeVisible();
   //get random element from each of 3 arrays
   const a = Math.floor(Math.random() * alphaArray.length);
   const b = Math.floor(Math.random() * betaArray.length);
