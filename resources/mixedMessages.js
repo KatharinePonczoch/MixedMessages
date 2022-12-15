@@ -6,10 +6,10 @@ const alphaArray = [
   [
     "A hallmark of wisdom is knowing when it's time to abandon some of your most treasured tools - and",
   ],
-  ["Changing your mind doesn't"],
+  ["Changing your mind doesn't make"],
   ["Focusing on results might be good for short-term performance, but"],
   ["I think of productivity as using your time to"],
-  ["It's ironic that when you go through a tragedy,"],
+  ["It's ironic that when you go through a tragedy, you"],
   [
     "If you want your children to bring original ideas into the world, you need to",
   ],
@@ -17,16 +17,16 @@ const alphaArray = [
   ["Procrastinate strategically..."],
   ["Authenticity means "],
   ["Passionate people don't"],
-  ["We listen to views that nake us feel good, instead"],
+  ["We listen to views that make us feel good, instead of ideas"],
   ["We live in a rapidly changing world, where"],
-  ["Once we hear the story and accept it as true,"],
+  ["Once we hear the story and"],
   ["It takes confident humility to"],
 ];
 const betaArray = [
   ["to help others to succeed."],
   ["success might follow as a by-product."],
   ["some of the most cherished parts of your identity."],
-  ["make you a flip-flopper or a hypocrite."],
+  ["you a flip-flopper or a hypocrite."],
   ["it can be an obstacle to long-term learning."],
   ["accomplish things of value to you and others."],
   ["appreciate more."],
@@ -35,9 +35,9 @@ const betaArray = [
   [
     "erasing the gap between what you firmly believe inside and what you reveal to the outside world.",
   ],
-  ["of ideas that make us think hard."],
+  ["that make us think hard."],
   ["we need to spend as much time rethinking as we do thinking."],
-  ["we rarely bother to question it."],
+  ["accept it as true, we rarely bother to question it."],
   ["admit that we're a work in progress."],
 ];
 const carrotArray = [
@@ -66,6 +66,11 @@ const carrotArray = [
     "People are remarkably open to criticism when they believe it's intended to help them.",
   ],
   ["It's really important to have a good reputation."],
+  ["We favor the comfort of conviction over the discomfort of doubt."],
+  ["Reconsidering something we believe deeply can threaten our identities."],
+  [
+    "After all, the purpose of learning isn't to affirm our beliefs; it's to evolve our beliefs.",
+  ],
 ];
 
 function getRandomMessage() {
@@ -81,8 +86,9 @@ function getRandomMessage() {
   const part2 = betaArray[b];
   const part3 = carrotArray[c];
   //combine 3 message parts into message
-  const message = `${part1} ${part2} ${part3}`;
+  const message = `"${part1} ${part2} ${part3}"`;
   //print message to screen
   document.getElementById("message").innerHTML = message;
+  document.getElementById("author").innerHTML = "- Adam Grant";
   console.log("did the message make sense?");
 }
