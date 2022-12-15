@@ -1,0 +1,37 @@
+body {
+    background
+}
+
+button {
+  color: #61bff9;
+}
+
+button:hover,
+.answer:hover {
+  text-decoration: none;
+}
+
+button:active,
+.button:active {
+  color: #dbe9ee;
+}
+
+.button {
+  border: 1px solid #466995;
+  border-radius: 10px;
+  box-shadow: 0px 4px;
+}
+
+.button:active {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+  background-color: #c0d6df;
+  color: #ffffff;
+}
+
+div {
+    width: 500px;
+    height: 300px;
+    background-color: beige;
+}
