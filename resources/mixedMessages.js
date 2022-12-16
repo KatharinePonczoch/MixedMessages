@@ -1,46 +1,59 @@
 const alphaArray = [
-  ["The most meaningful way to succeed is"],
+  ["The most meaningful way to succeed is to help others to succeed."],
   [
-    "Focus attention and energy on making a difference in the lives of others, and",
+    "Focus attention and energy on making a difference in the lives of others, and success might follow as a by-product.",
   ],
   [
-    "A hallmark of wisdom is knowing when it's time to abandon some of your most treasured tools - and",
+    "A hallmark of wisdom is knowing when it's time to abandon some of your most treasured tools - and some of the most cherished parts of your identity.",
   ],
-  ["Changing your mind doesn't make"],
-  ["Focusing on results might be good for short-term performance, but"],
-  ["I think of productivity as using your time to"],
-  ["It's ironic that when you go through a tragedy, you"],
+  ["Changing your mind doesn't make you a flip-flopper or a hypocrite."],
   [
-    "If you want your children to bring original ideas into the world, you need to",
+    "Focusing on results might be good for short-term performance, but it can be an obstacle to long-term learning.",
   ],
-  ["Procrastination is a vice when it comes to productivity, but"],
-  ["Procrastinate strategically..."],
-  ["Authenticity means "],
-  ["Passionate people don't"],
-  ["We listen to views that make us feel good, instead of ideas"],
-  ["We live in a rapidly changing world, where"],
-  ["Once we hear the story and"],
-  ["It takes confident humility to"],
+  [
+    "I think of productivity as using your time to accomplish things of value to you and others.",
+  ],
+  ["It's ironic that when you go through a tragedy, you appreciate more."],
+  [
+    "If you want your children to bring original ideas into the world, you need to let them pursue their passions, not yours.",
+  ],
+  ["Dissenting for the sake of dissenting is not useful..."],
+  ["Procrastinate strategically...it can be a virtue for creativity."],
+  [
+    "Authenticity means erasing the gap between what you firmly believe inside and what you reveal to the outside world.",
+  ],
+  ["Passionate people don't wear their passion on their sleeves."],
+  [
+    "We listen to views that make us feel good, instead of ideas that make us think hard.",
+  ],
+  [
+    "We live in a rapidly changing world, where we need to spend as much time rethinking as we do thinking.",
+  ],
+  [
+    "Once we hear the story and accept it as true, we rarely bother to question it.",
+  ],
+  ["It takes confident humility to admit that we're a work in progress."],
 ];
 const betaArray = [
-  ["to help others to succeed."],
-  ["success might follow as a by-product."],
-  ["some of the most cherished parts of your identity."],
-  ["you a flip-flopper or a hypocrite."],
-  ["it can be an obstacle to long-term learning."],
-  ["accomplish things of value to you and others."],
-  ["appreciate more."],
-  ["let them pursue their passions, not yours."],
-  ["it can be a virtue for creativity."],
+  ["Don't criticize yourself while you're creating."],
+  ,
+  ["Everyone knows more than you about something."],
+  ["Listening well is more than a matter of talking less."],
+  ["Your antidote to burnout is not necessarily less work."],
+  ["Joy can wax and wane, but meaning is more likely to last."],
+  ["Conformity is dangerous."],
+  ["Stop asking kids what they want to be when they grow up."],
   [
-    "erasing the gap between what you firmly believe inside and what you reveal to the outside world.",
+    "But when its authentic, it stimulates thought; it clarifies and emboldens.",
   ],
-  ["that make us think hard."],
-  ["we need to spend as much time rethinking as we do thinking."],
-  ["accept it as true, we rarely bother to question it."],
-  ["admit that we're a work in progress."],
+  ["Argue like you're right and listen like you're wrong."],
+  ["Reconsidering something we believe deeply can threaten our identities."],
+  ["No one wants to hear everything that's in your head."],
+  ["Originality is not a fixed trait."],
+  ["Passions are developed, not just discovered."],
 ];
 const carrotArray = [
+  ["It's never too late to become an original."],
   ["It means you were open to learning. "],
   [
     "You realize how fragile life is and that there are so many things to still be thankful for.",
@@ -50,7 +63,7 @@ const carrotArray = [
   [
     "You need to find the people who genuinely hold different views and invite them into the conversation.",
   ],
-  ["Argue like you're right and listen like you're wrong."],
+  ["Genuine dissenters challenge people to doubt themselves."],
   ["Passions are developed, not discovered."],
   ["Creativity may be hard to nurture, but it's easy to thwart."],
   [
@@ -67,7 +80,7 @@ const carrotArray = [
   ],
   ["It's really important to have a good reputation."],
   ["We favor the comfort of conviction over the discomfort of doubt."],
-  ["Reconsidering something we believe deeply can threaten our identities."],
+  ["They just want you to live up to what comes out of your mouth."],
   [
     "After all, the purpose of learning isn't to affirm our beliefs; it's to evolve our beliefs.",
   ],
