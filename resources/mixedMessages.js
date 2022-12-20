@@ -36,7 +36,6 @@ const part1Array = [
 ];
 const part2Array = [
   ["Don't criticize yourself while you're creating."],
-  ,
   ["Everyone knows more than you about something."],
   ["Listening well is more than a matter of talking less."],
   ["Your antidote to burnout is not necessarily less work."],
@@ -54,7 +53,7 @@ const part2Array = [
 ];
 const part3Array = [
   ["It's never too late to become an original."],
-  ["It means you were open to learning. "],
+  ["It means you were open to learning."],
   [
     "You realize how fragile life is and that there are so many things to still be thankful for.",
   ],
