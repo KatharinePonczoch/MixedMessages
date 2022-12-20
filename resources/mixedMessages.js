@@ -1,4 +1,4 @@
-const alphaArray = [
+const part1Array = [
   ["The most meaningful way to succeed is to help others to succeed."],
   [
     "Focus attention and energy on making a difference in the lives of others, and success might follow as a by-product.",
@@ -18,7 +18,7 @@ const alphaArray = [
     "If you want your children to bring original ideas into the world, you need to let them pursue their passions, not yours.",
   ],
   ["Dissenting for the sake of dissenting is not useful..."],
-  ["Procrastinate strategically...it can be a virtue for creativity."],
+  ["Procrastinate strategically... it can be a virtue for creativity."],
   [
     "Authenticity means erasing the gap between what you firmly believe inside and what you reveal to the outside world.",
   ],
@@ -34,7 +34,7 @@ const alphaArray = [
   ],
   ["It takes confident humility to admit that we're a work in progress."],
 ];
-const betaArray = [
+const part2Array = [
   ["Don't criticize yourself while you're creating."],
   ,
   ["Everyone knows more than you about something."],
@@ -52,7 +52,7 @@ const betaArray = [
   ["Originality is not a fixed trait."],
   ["Passions are developed, not just discovered."],
 ];
-const carrotArray = [
+const part3Array = [
   ["It's never too late to become an original."],
   ["It means you were open to learning. "],
   [
@@ -92,12 +92,12 @@ function getRandomMessage() {
   }
   makeVisible();
   //get random element from each of 3 arrays
-  const a = Math.floor(Math.random() * alphaArray.length);
-  const b = Math.floor(Math.random() * betaArray.length);
-  const c = Math.floor(Math.random() * carrotArray.length);
-  const part1 = alphaArray[a];
-  const part2 = betaArray[b];
-  const part3 = carrotArray[c];
+  const randomIndex1 = Math.floor(Math.random() * part1Array.length);
+  const randomIndex2 = Math.floor(Math.random() * part2Array.length);
+  const randomIndex3 = Math.floor(Math.random() * part3Array.length);
+  const part1 = part1Array[randomIndex1];
+  const part2 = part2Array[randomIndex2];
+  const part3 = part3Array[randomIndex3];
   //combine 3 message parts into message
   const message = `"${part1} ${part2} ${part3}"`;
   //print message to screen
